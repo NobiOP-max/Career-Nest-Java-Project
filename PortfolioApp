@@ -1,0 +1,53 @@
+public class PortfolioApp {
+
+    public static void main(String[] args) {
+        displayHeader();
+        displayContactInfo();
+        displayEducation();
+        displaySkills();
+        displayExperience();
+        displayProjects();
+    }
+
+    static void displayHeader() {
+        System.out.println("-----------------------------------------");
+        System.out.println("         PERSONAL PORTFOLIO");
+        System.out.println("-----------------------------------------");
+    }
+
+    static void displayContactInfo() {
+        System.out.println("Name: Rishabh nehra");
+        System.out.println("Email: nehrarishabh16@gmail.com");
+        System.out.println("Phone: +91 9557888...");
+        System.out.println("LinkedIn: https://www.linkedin.com/in/rishabh-nehra-2211b92aa/");
+        System.out.println("GitHub: https://github.com/NobiOP-max\n");
+    }
+
+    static void displayEducation() {
+        System.out.println("-----------------------------------------");
+        System.out.println("Education:");
+        System.out.println("- B.Tech in Computer Science, R.D Engineering College\n");
+    }
+
+    static void displaySkills() {
+        System.out.println("-----------------------------------------");
+        System.out.println("Skills:");
+        System.out.println("- Java, Python, C++");
+        System.out.println("- Web Development (HTML, CSS, JavaScript)");
+        System.out.println("- SQL, Git, Linux\n");
+    }
+
+    static void displayExperience() {
+        System.out.println("-----------------------------------------");
+        System.out.println("Experience:");
+        System.out.println("- Fresher");
+    }
+
+    static void displayProjects() {
+        System.out.println("-----------------------------------------");
+        System.out.println("Projects:");
+        System.out.println("- Portfolio Website: A responsive website built using HTML/CSS/JS.");
+        System.out.println("- Spotify Clone Using HTML /CSS/JS");
+        System.out.println("-----------------------------------------");
+    }
+}
